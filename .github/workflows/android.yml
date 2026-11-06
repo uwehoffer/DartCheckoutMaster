@@ -28,7 +28,7 @@ jobs:
 
       - name: Android-Projekt entpacken
         run: |
-          unzip DartCheckoutMaster_Android_Projekt.zip -d android-src
+          unzip DartCheckoutMaster_Android_Projekt_korrigiert.zip -d android-src
 
       - name: APK bauen
         run: |
